@@ -1,0 +1,32 @@
+Requirement Specification
+    The user will input coordinates for a point on a turtle drawn target.
+    The program will draw in a dot at that coordinate.
+
+System Analysis
+    The system will create a target with 4 circles that are the radius of the center circle apart set at 0,0
+    THe user will then input coordinates
+    the program will move to those coordinates and put a white circle in that point
+
+system design
+    start by defining the radius of the center circle
+    create the inner circle with the radius variable
+    add the length of the radius to the radius variable
+    create a circle using the radius variable
+    add the length of the middle radius to the variable
+    create a circle using the radius variable
+    add the length of the middle radius to the variable
+    create a circle using the radius variable
+
+    create xPos variable and yPos using input from the user
+    goto those points
+    and draw a circle at that point
+
+Testing
+
+Test 1:
+    Input (5, 7)
+    output (5. 7)
+
+Test 2:
+    Input (20, 30
+    output (20, 30) 

@@ -1,0 +1,55 @@
+Requirements Specification
+    Customer must be able to enter the interest rate, investment amount, monthly payment amount,
+    and number of years.
+    The results must be easy to understand and read.
+    The software will take that information and calculate the future value of that investment.
+
+System Analysis
+    The user inputs the interest rate, investment rate, investment amount, monthly payment amount, and number of
+    years that they will be paying that rate.
+    The program will take that information and put it through this formula, futureValue = investedAmount * (1 + monthlyInterestRate)
+    **numberOfMonths + paymentAmount * (monthlyInterestRate)**numberOfMonths - 1/ monthlyInterestRate * (1 + monthlyInterestRate)
+    The program will then display the Future Value of the investment.
+
+System Design
+    Define the interest rate, investment rate, investment amount, monthly payment amount, and number of years, using \
+    these variables, investedAmount, monthlyInterestRate, paymentAmount, and numberOfYears
+    translate the numberOfYears to numberOfMonths
+    Create a variable futureValue
+    run the variables through this formula futureValue = investedAmount * (1 + monthlyInterestRate)
+    **numberOfMonths + paymentAmount * (monthlyInterestRate)**numberOfMonths - 1/ monthlyInterestRate * (1 + monthlyInterestRate)
+    Print futureValue
+
+Testing
+    Test: 1
+
+    Input:
+    Investment Amount: $5,000
+    Monthly Payment: $500
+    Annual Interest: 6.0
+    Number of Years: 10
+
+    Output:
+    Future Value: $91,446.35
+
+    Test: 2
+
+    Input:
+    Investment Amount: $4,000
+    Monthly Payment: $300
+    Annual Interest: 4.0
+    Number of Years: 20
+
+    Output:
+    Future Value: $119,289.49
+
+    Test: 3
+
+    Input:
+    Investment Amount: $3,000
+    Monthly Payment: $600
+    Annual Interest: 4.0
+    Number of Years: 30
+
+    Output:
+    Future Value: 427,758.23
